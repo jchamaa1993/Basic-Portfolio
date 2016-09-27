@@ -1,0 +1,127 @@
+body {
+	background-image: url("../images/concreteSeamless.png");
+	width: 960px; 
+	margin-left: 40px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 36px;
+	float: left;
+	margin:0 0 0 0;
+	width: 300px;
+	text-align: center;
+	padding: 27px 0 27px 0;
+}
+h2 {
+	font-size: 24px;
+	clear: both;
+	color: #4aaaa5;
+	border-bottom: 2px solid rgb(119,136,182);
+	padding-bottom: 20px;
+	margin: 45px 30px 0 30px;
+
+}
+
+h3 {
+	color: #4aaaa5;
+	border-bottom: 1px solid rgb(119,136,182);
+	padding-bottom: 5px;
+	margin: 10px 10px 10px 10px;
+}
+img {
+	width: 200px;
+	height: 150px;
+	margin-right: 10px;
+	float: left;
+}
+
+p {
+	color: rgb(119,136,182);
+	width: 100%;
+}
+
+footer {
+	clear: both;
+}
+
+textarea {
+	width: 590px;
+	height: 200px;
+}
+
+
+#contact {
+	float: right;
+	width: 10%;
+}
+
+#portfolio {
+	float: right;
+	width: 10%;
+}
+
+#about {
+	float: right;
+	width: 10%;
+}
+
+.aboutMeText {
+	float left;
+	background-color: white;
+	line-height: 150%;
+}
+
+/*Class for pictures of logos*/
+.logo {
+	height: 60px;
+	width: 60px;
+}
+
+#mainContent {
+	clear: both;
+	float: left;
+	background-color: white;
+	width: 650px;
+	margin: 40px 40px 10px 0;
+}
+/*Side Bar*/
+#sideBar {
+	background-color: white;
+	float: left;
+	width: 270px;
+	height: 200px;
+	margin-top: 40px;
+}
+
+#headerDiv {
+	background-color: white;
+	height: 90px;
+	margin-top:0;
+	clear: both;
+	display: block;
+}
+
+/*Elements only on Contact page.*/
+/*Classes*/
+.textInput {
+	width: 590px;
+	margin: 15px 0px 20px 30px;
+	
+}
+/*ID's*/
+#contactForm {
+}
+#submitButton {
+	background-color: #4aaaa5;
+	color: white;
+}
+

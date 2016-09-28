@@ -1,6 +1,6 @@
 body {
 	background-image: url("../images/concreteSeamless.png");
-	width: 960px; 
+	width: 960px;
 	margin-left: 40px;
 }
 
@@ -67,7 +67,7 @@ footer {
 	border-top: 8px solid #4aaaa5;
 	color: white;
 	margin: 0 auto;
-
+	color: #cccccc;
 }
 
 textarea {
@@ -75,6 +75,10 @@ textarea {
 	height: 200px;
 }
 
+#bigHeader {
+	background-color: white;
+	height:100%;
+}
 
 #contact {
 	float: right;
@@ -119,7 +123,7 @@ textarea {
 	float: left;
 	background-color: white;
 	width: 590px;
-	margin: 38px 38px 40px 0;
+	margin: 38px 30px 40px 0;
 	border: 1px solid #dddddd;
 	padding: 0 30px 40px 30px;
 }
@@ -128,12 +132,13 @@ textarea {
 /*Side Bar*/
 #sideBar {
 	background-color: white;
-	float: left;
+	float: right;
 	width: 210px;
 	height: 200px;
 	margin-top: 40px;
 	text-align: center;
 	padding: 0 30px 0 30px;
+	border:1px solid #dddddd;
 }
 
 #headerDiv {
@@ -188,9 +193,10 @@ textarea {
 /*Elements only on Contact page.*/
 /*Classes*/
 .textInput {
-	width: 590px;
+	width: 580px;
 	margin: 15px 0px 20px 0;
-	
+	color: #777777;
+	padding: 5px 5px 5px 5px;
 }
 /*ID's*/
 #contactForm {
@@ -198,6 +204,10 @@ textarea {
 #submitButton {
 	background-color: #4aaaa5;
 	color: white;
+	height: 42px;
+	width: 115px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	border: 0;
 }
 
 #contactMainContent {
